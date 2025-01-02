@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="src/output.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="bg-white sticky top-0 shadow-lg border-gray-200">
+        <div class="w-full flex flex-wrap items-center justify-between px-10 py-4">
+            <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
+                <img src="images/logo.png" class="h-12" alt="Amier Logo" />
+            </a>
+            <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+                <button type="button"
+                    class="text-white bg-[#162232] hover:scale-105 active:translate-y-1.5 duration-300 font-medium rounded-lg text-sm px-4 py-2 text-center">Contact
+                    Me</button>
+                <button data-collapse-toggle="navbar-cta" type="button"
+                    class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
+                    aria-controls="navbar-cta" aria-expanded="false">
+                    <span class="sr-only">Open main menu</span>
+                    <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                        viewBox="0 0 17 14">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M1 1h15M1 7h15M1 13h15" />
+                    </svg>
+                </button>
+            </div>
+            <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-cta">
+                <ul
+                    class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white">
+                    <li>
+                        <a href="#"
+                            class="block py-2 px-3 md:p-0 text-gray-900 bg-gray-600 rounded md:bg-transparent md:hover:text-gray-400"
+                            aria-current="page">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about_me"
+                            class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-gray-400">About
+                            Me</a>
+                    </li>
+                    <li>
+                        <a href="#experience"
+                            class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-gray-400">Experience</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio"
+                            class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-gray-400">Portfolio</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="w-full h-fit flex flex-col gap-y-4 md:flex-row p-10 md:p-20 items-center">
+        <div class="w-full flex justify-center">
+            <img src="images/section-1-option-2.jpeg" class="md:h-[700px] rounded-2xl" alt="">
+        </div>
+        <div class="flex w-full justify-center items-center">
+            <div class="flex flex-col gap-y-4 justify-center">
+                <div class="flex flex-col content-center">
+                    <span class="text-4xl lg:text-6xl xl:text-8xl font-extrabold text-[#162232] ">Multimedia</span>
+                    <span class="text-4xl lg:text-6xl xl:text-8xl font-extrabold text-[#FFBC00] ">Designer</span>
+                </div>
+                <div class="flex flex-col md:text-xl font-light">
+                    <span>Hi, I am Amier Abidin</span>
+                    <span>your Multimedia (things) Storyteller</span>
+                </div>
+                <button class="bg-[#162232] px-3 py-2.5 md:px-6 md:py-4 rounded-xl shadow-md 
+                    hover:scale-105 active:translate-y-1.5 duration-300 md:rounded-2xl w-full md:w-fit">
+                    <span class="text-[#FFBC00] font-bold md:text-3xl">Hire Me</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <div class="w-full bg-[#162232]">
+        <section class="w-full bg-[#162232] p-10 md:p-20 gap-4 justify-center" id="about_me">
+            <div class="flex flex-col-reverse md:flex-row gap-6 text-start">
+                <div class="w-full">
+                    <span class="text-4xl md:text-5xl lg:text-7xl font-extrabold text-white">About Me</span>
+                    <div class="w-full h-full flex flex-col items-center">
+                        <div class="flex flex-col md:text-2xl my-10 text-white font-light">
+                            <span>
+                                I am Amier Abidin, a multimedia designer with a passion for creating visually engaging
+                                and
+                                impactful designs. I am fluent in both Bahasa Malaysia and English. My expertise in
+                                multimedia
+                                design enables me to deliver creative solutions that meet the unique needs of each
+                                project.
+                                You can reach me
+                                via email at amierruldinabidin@gmail.com or by phone at +6013 795 1238.</span>
+                        </div>
+                        <div class="grid grid-cols-2 gap-4 w-full text-start">
+                            <div class="flex flex-col gap-1">
+                                <span class="text-[#FFBC00] font-bold md:text-2xl mb-2">Graphic Design</span>
+                                <div class="w-full bg-[#7ebfe1] rounded-sm h-3.5">
+                                    <div class="bg-[#FFBC00] h-3.5 rounded-sm" style="width: 80%"></div>
+                                </div>
+                            </div>
+                            <div class="flex flex-col gap-1">
+                                <span class="text-[#FFBC00] font-bold md:text-2xl mb-2">Shooter</span>
+                                <div class="w-full bg-[#7ebfe1] rounded-sm h-3.5">
+                                    <div class="bg-[#FFBC00] h-3.5 rounded-sm" style="width: 80%"></div>
+                                </div>
+                            </div>
+                            <div class="flex flex-col gap-1">
+                                <span class="text-[#FFBC00] font-bold md:text-2xl mb-2">Video Editor</span>
+                                <div class="w-full bg-[#7ebfe1] rounded-sm h-3.5">
+                                    <div class="bg-[#FFBC00] h-3.5 rounded-sm" style="width: 90%"></div>
+                                </div>
+                            </div>
+                            <div class="flex flex-col gap-1">
+                                <span class="text-[#FFBC00] font-bold md:text-2xl mb-2">Content creator</span>
+                                <div class="w-full bg-[#7ebfe1] rounded-sm h-3.5">
+                                    <div class="bg-[#FFBC00] h-3.5 rounded-sm" style="width: 70%"></div>
+                                </div>
+                            </div>
+                            <div class="flex flex-col gap-1">
+                                <span class="text-[#FFBC00] font-bold md:text-2xl mb-2">Motion Graphic</span>
+                                <div class="w-full bg-[#7ebfe1] rounded-sm h-3.5">
+                                    <div class="bg-[#FFBC00] h-3.5 rounded-sm" style="width: 75%"></div>
+                                </div>
+                            </div>
+                            <div class="flex flex-col gap-1">
+                                <span class="text-[#FFBC00] font-bold md:text-2xl mb-2">AR</span>
+                                <div class="w-full bg-[#7ebfe1] rounded-sm h-3.5">
+                                    <div class="bg-[#FFBC00] h-3.5 rounded-sm" style="width: 25%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full">
+                    <img src="images/section-2.jpeg" class="rounded-2xl" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section class="w-full bg-[#162232] p-4 gap-4 justify-center" id="software_skills">
+            <div class="w-full p-8 md:p-18 bg-white rounded-3xl">
+                <span class="text-4xl md:text-5xl lg:text-7xl font-extrabold text-[#162232]">Software Skills</span>
+
+                <div class="w-full flex flex-wrap justify-evenly my-14">
+                    <img src="images/icon/icon_Ae Light Mode.png" class="w-32" alt="">
+                    <img src="images/icon/icon_Au Light Mode.png" class="w-32" alt="">
+                    <img src="images/icon/icon_capcut Light Mode.png" class="w-32" alt="">
+                    <img src="images/icon/icon_canvaLight Mode.png" class="w-32" alt="">
+                    <img src="images/icon/icon_Ai Light Mode.png" class="w-32" alt="">
+                    <img src="images/icon/icon_figma Light Mode.png" class="w-32" alt="">
+                    <img src="images/icon/icon_Powerpoint Light Mode.png" class="w-32" alt="">
+                    <img src="images/icon/icon_excellLight Mode.png" class="w-32" alt="">
+                    <img src="images/icon/icon_spark AR Light Mode.png" class="w-32" alt="">
+                </div>
+
+            </div>
+        </section>
+        <section class="w-full p-10 md:p-20 bg-[#162232] gap-4 justify-center" id="experience">
+            <span class="text-4xl md:text-5xl lg:text-7xl font-extrabold text-white">Experience</span>
+            <div class="flex flex-col my-10 gap-8 sm:p-10 text-white">
+                <div class="flex flex-col sm:flex-row justify-between">
+                    <div class="w-full flex">
+                        <p class="text-md sm:text-lg text-gray-400 hover:text-white duration-300 font-bold">2023 - Present
+                        </p>
+                    </div>
+                    <div class="w-full flex flex-col text-start">
+                        <p class="text-lg sm:text-xl font-bold mb-2">Multimedia Designer | FNXperts SDN BHD</p>
+                        <p class="text-gray-400 hover:text-white duration-300 text-pretty font-semibold text-sm sm:text-md">
+                            Independently managed multimedia design projects for diverse internal departments, including
+                            logo creation, posters, videos, branding,
+                            video and photo shoots, merchandise, and content creation. Designed “X-NEWS,” an internal
+                            newsletter on organizational events and
+                            updates. Coordinated with vendors and supplier
+                        </p>
+
+                    </div>
+                </div>
+                <div class="flex flex-col sm:flex-row justify-between">
+                    <div class="w-full flex">
+                        <p class="text-md sm:text-lg text-gray-400 hover:text-white duration-300 font-bold">2022 - 2023
+                        </p>
+                    </div>
+                    <div class="w-full flex flex-col text-start">
+                        <p class="text-lg sm:text-xl font-bold mb-2">Graphic Designer | BOUGASBEAUTY</p>
+                        <p class="text-gray-400 hover:text-white duration-300 text-pretty font-semibold text-sm sm:text-md">
+                            Successfully conducted a sales campaign in collaboration with the team, managing content and
+                            design for social media posts, product
+                            packaging, and promotional videos. Coordinated closely with the Digital Marketing team to
+                            create effective advertisements for social
+                            media platforms: Facebook, Instagram, and TikTok. Independently handled graphic design
+                            projects for the company and its
+                            dropshipping partners, designing campaign assets such as posters, videos, product
+                            photography, and various promotional content.
+                        </p>
+
+                    </div>
+                </div>
+                <div class="flex flex-col sm:flex-row justify-between">
+                    <div class="w-full flex">
+                        <p class="text-md sm:text-lg text-gray-400 hover:text-white duration-300 font-bold">2021 - 2022
+                        </p>
+                    </div>
+                    <div class="w-full flex flex-col text-start">
+                        <p class="text-lg sm:text-xl font-bold mb-2">Motion Graphic Designer | Sirius TV(SMART DIGITAL
+                            INTERNATIONAL SDN. BHD)</p>
+                        <p class="text-gray-400 hover:text-white duration-300 text-pretty font-semibold text-sm sm:text-md">
+                            Directed motion graphics for television programs and YouTube content, crafting dynamic
+                            montages, openers, teasers, and trailers.
+                            Created visually engaging content tailored to enhance viewer engagement across TV and
+                            digital platforms.
+                            (www.youtube.com/@SiriusMalaysiaTV).
+                        </p>
+                        <p class="text-gray-400 hover:text-white duration-300 text-pretty font-semibold text-sm sm:text-md mt-1">
+                            *One of the achievement on this company my content getting viral “Akak 212 (Parody)”
+                        </p>
+
+                    </div>
+                </div>
+                <div class="flex flex-col sm:flex-row justify-between">
+                    <div class="w-full flex">
+                        <p class="text-md sm:text-lg text-gray-400 hover:text-white duration-300 font-bold">2020 - 2021
+                        </p>
+                    </div>
+                    <div class="w-full flex flex-col text-start">
+                        <p class="text-lg sm:text-xl font-bold mb-2">Supervisor Multimedia Designer | Koperasi Al-Najah
+                            Kuala Lumpur Berhad</p>
+                        <p class="text-gray-400 hover:text-white duration-300 text-pretty font-semibold text-sm sm:text-md">
+                            Proficiently managed multiple projects simultaneously, leading a team of three designers and
+                            one motion graphic artist to
+                            conceptualize and deliver high-quality design projects. Directed the full production process
+                            of promotional video content, from
+                            pre-production through to post-production.
+                        </p>
+
+                    </div>
+                </div>
+                <div class="flex flex-col sm:flex-row justify-between">
+                    <div class="w-full flex">
+                        <p class="text-md sm:text-lg text-gray-400 hover:text-white duration-300 font-bold">2017 - 2020
+                        </p>
+                    </div>
+                    <div class="w-full flex flex-col text-start">
+                        <p class="text-lg sm:text-xl font-bold mb-2">Video Editor Cum Videographer | iFame - iFabulous
+                            Art Media & Event Sdn. Bhd</p>
+                        <p class="text-gray-400 hover:text-white duration-300 text-pretty font-semibold text-sm sm:text-md">
+                            Effectively conducted multiple projects simultaneously, coordinating between video editing
+                            for television programs, promotional
+                            videos, and event highlights. Oversaw video editing for promotional television programs on
+                            social media, including individual episodes,
+                            program openings, and episode capsules.
+                        </p>
+                        <p class="text-gray-400 hover:text-white duration-300 text-pretty font-semibold text-sm sm:text-md mt-1">
+                            *One of my notable achievements within the company was managing the television program
+                            "Kaabah Rumah Agong" on Astro Naura
+                            without any amendments.
+                        </p>
+
+                    </div>
+                </div>
+                <div class="flex flex-col sm:flex-row justify-between">
+                    <div class="w-full flex">
+                        <p class="text-md sm:text-lg text-gray-400 hover:text-white duration-300 font-bold">2017 (3
+                            Months)
+                        </p>
+                    </div>
+                    <div class="w-full flex flex-col text-start">
+                        <p class="text-lg sm:text-xl font-bold mb-2">Video Editor (Internship) | Tangerine films Sdn.
+                            Bhd</p>
+                        <p class="text-gray-400 hover:text-white duration-300 text-pretty font-semibold text-sm sm:text-md">
+                            Provided production assistance and support as a video editor for TV commercials, telemovies,
+                            and television programs. Displayed
+                            professionalism under pressure while effectively managing project demands.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <section class="w-full p-10 md:p-20 gap-4 justify-center" id="portfolio">
+
+        <span class="text-4xl md:text-5xl lg:text-7xl font-extrabold">Portfolio</span>
+
+        <div class="w-full flex mb-4 justify-center">
+            <!-- <div class="text-[10px] md:text-base font-medium text-center text-gray-700 border-gray-200">
+                <ul class="flex flex-wrap -mb-px" id="default-tab" data-tabs-toggle="#default-tab-content"
+                    role="tablist">
+                    <li class="me-2" role="presentation">
+                        <button class="inline-block p-4 border-b-2 rounded-t-lg" id="video-tab"
+                            data-tabs-target="#video" type="button" role="tab" aria-controls="video"
+                            aria-selected="false">Video</button>
+                    </li>
+                    <li class="me-2" role="presentation">
+                        <button class="inline-block p-4 border-b-2 rounded-t-lg" id="photo-tab"
+                            data-tabs-target="#photo" type="button" role="tab" aria-controls="photo"
+                            aria-selected="false">Photo</button>
+                    </li>
+                    <li class="me-2" role="presentation">
+                        <button class="inline-block p-4 border-b-2 rounded-t-lg" id="design-tab"
+                            data-tabs-target="#design" type="button" role="tab" aria-controls="design"
+                            aria-selected="false">Design</button>
+                    </li>
+                    <li class="me-2" role="presentation">
+                        <button class="inline-block p-4 border-b-2 rounded-t-lg" id="content-creator-tab"
+                            data-tabs-target="#content-creator" type="button" role="tab" aria-controls="content-creator"
+                            aria-selected="false">Content Creator</button>
+                    </li>
+                    <li class="me-2" role="presentation">
+                        <button class="inline-block p-4 border-b-2 rounded-t-lg" id="ar-tab" data-tabs-target="#ar"
+                            type="button" role="tab" aria-controls="ar" aria-selected="false">AR</button>
+                    </li>
+                </ul>
+            </div> -->
+
+
+            <div class="mb-4 border-b border-gray-200 dark:border-gray-700">
+                <ul class="flex flex-wrap -mb-px text-sm font-medium text-center" id="default-tab"
+                    data-tabs-toggle="#default-tab-content" role="tablist">
+                    <li class="me-2" role="presentation">
+                        <button class="inline-block p-4 border-b-2 rounded-t-lg" id="profile-tab"
+                            data-tabs-target="#profile" type="button" role="tab" aria-controls="profile"
+                            aria-selected="false">Profile</button>
+                    </li>
+                    <li class="me-2" role="presentation">
+                        <button
+                            class="inline-block p-4 border-b-2 rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300"
+                            id="dashboard-tab" data-tabs-target="#dashboard" type="button" role="tab"
+                            aria-controls="dashboard" aria-selected="false">Dashboard</button>
+                    </li>
+                    <li class="me-2" role="presentation">
+                        <button
+                            class="inline-block p-4 border-b-2 rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300"
+                            id="settings-tab" data-tabs-target="#settings" type="button" role="tab"
+                            aria-controls="settings" aria-selected="false">Settings</button>
+                    </li>
+                    <li role="presentation">
+                        <button
+                            class="inline-block p-4 border-b-2 rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300"
+                            id="contacts-tab" data-tabs-target="#contacts" type="button" role="tab"
+                            aria-controls="contacts" aria-selected="false">Contacts</button>
+                    </li>
+                </ul>
+            </div>
+            <div id="default-tab-content">
+                <div class="hidden p-4 rounded-lg bg-gray-50 dark:bg-gray-800" id="profile" role="tabpanel"
+                    aria-labelledby="profile-tab">
+                    <p class="text-sm text-gray-500 dark:text-gray-400">This is some placeholder content the <strong
+                            class="font-medium text-gray-800 dark:text-white">Profile tab's associated content</strong>.
+                        Clicking another tab will toggle the visibility of this one for the next. The tab JavaScript
+                        swaps classes to control the content visibility and styling.</p>
+                </div>
+                <div class="hidden p-4 rounded-lg bg-gray-50 dark:bg-gray-800" id="dashboard" role="tabpanel"
+                    aria-labelledby="dashboard-tab">
+                    <p class="text-sm text-gray-500 dark:text-gray-400">This is some placeholder content the <strong
+                            class="font-medium text-gray-800 dark:text-white">Dashboard tab's associated
+                            content</strong>. Clicking another tab will toggle the visibility of this one for the next.
+                        The tab JavaScript swaps classes to control the content visibility and styling.</p>
+                </div>
+                <div class="hidden p-4 rounded-lg bg-gray-50 dark:bg-gray-800" id="settings" role="tabpanel"
+                    aria-labelledby="settings-tab">
+                    <p class="text-sm text-gray-500 dark:text-gray-400">This is some placeholder content the <strong
+                            class="font-medium text-gray-800 dark:text-white">Settings tab's associated
+                            content</strong>. Clicking another tab will toggle the visibility of this one for the next.
+                        The tab JavaScript swaps classes to control the content visibility and styling.</p>
+                </div>
+                <div class="hidden p-4 rounded-lg bg-gray-50 dark:bg-gray-800" id="contacts" role="tabpanel"
+                    aria-labelledby="contacts-tab">
+                    <p class="text-sm text-gray-500 dark:text-gray-400">This is some placeholder content the <strong
+                            class="font-medium text-gray-800 dark:text-white">Contacts tab's associated
+                            content</strong>. Clicking another tab will toggle the visibility of this one for the next.
+                        The tab JavaScript swaps classes to control the content visibility and styling.</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <div class="grid gap-4">
+                <div>
+                    <img class="h-auto max-w-full rounded-lg"
+                        src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image.jpg" alt="">
+                </div>
+                <div>
+                    <img class="h-auto max-w-full rounded-lg"
+                        src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-1.jpg" alt="">
+                </div>
+                <div>
+                    <img class="h-auto max-w-full rounded-lg"
+                        src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-2.jpg" alt="">
+                </div>
+            </div>
+            <div class="grid gap-4">
+                <div>
+                    <img class="h-auto max-w-full rounded-lg"
+                        src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-3.jpg" alt="">
+                </div>
+                <div>
+                    <img class="h-auto max-w-full rounded-lg"
+                        src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-4.jpg" alt="">
+                </div>
+                <div>
+                    <img class="h-auto max-w-full rounded-lg"
+                        src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-5.jpg" alt="">
+                </div>
+            </div>
+            <div class="grid gap-4">
+                <div>
+                    <img class="h-auto max-w-full rounded-lg"
+                        src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-6.jpg" alt="">
+                </div>
+                <div>
+                    <img class="h-auto max-w-full rounded-lg"
+                        src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-7.jpg" alt="">
+                </div>
+                <div>
+                    <img class="h-auto max-w-full rounded-lg"
+                        src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-8.jpg" alt="">
+                </div>
+            </div>
+            <div class="grid gap-4">
+                <div>
+                    <img class="h-auto max-w-full rounded-lg"
+                        src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-9.jpg" alt="">
+                </div>
+                <div>
+                    <img class="h-auto max-w-full rounded-lg"
+                        src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-10.jpg" alt="">
+                </div>
+                <div>
+                    <img class="h-auto max-w-full rounded-lg"
+                        src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-11.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <footer class="bg-white">
+        <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+            <div class="md:flex md:justify-between">
+                <div class="mb-6 md:mb-0">
+                    <a href="https://flowbite.com/" class="flex items-center">
+                        <img src="images/logo.png" class="h-32 me-3" alt="Amier Logo" />
+                    </a>
+                </div>
+                <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+                    <div>
+                        <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase">Resources</h2>
+                        <ul class="text-gray-500 font-medium">
+                            <li class="mb-4">
+                                <a href="https://flowbite.com/" class="hover:underline">Flowbite</a>
+                            </li>
+                            <li>
+                                <a href="https://tailwindcss.com/" class="hover:underline">Tailwind CSS</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase">Follow us</h2>
+                        <ul class="text-gray-500 font-medium">
+                            <li class="mb-4">
+                                <a href="https://github.com/themesberg/flowbite" class="hover:underline ">Github</a>
+                            </li>
+                            <li>
+                                <a href="https://discord.gg/4eeurUVvTy" class="hover:underline">Discord</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase">Legal</h2>
+                        <ul class="text-gray-500 font-medium">
+                            <li class="mb-4">
+                                <a href="#" class="hover:underline">Privacy Policy</a>
+                            </li>
+                            <li>
+                                <a href="#" class="hover:underline">Terms &amp; Conditions</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-6 border-gray-200 sm:mx-auto lg:my-8" />
+            <div class="sm:flex sm:items-center sm:justify-between">
+                <span class="text-sm text-gray-500 sm:text-center">© 2024 <a href="#" class="hover:underline">Amier</a>.
+                    All Rights Reserved.
+                </span>
+                <div class="flex mt-4 sm:justify-center sm:mt-0">
+                    <a href="#" class="text-gray-500 hover:text-gray-900">
+                        <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                            viewBox="0 0 8 19">
+                            <path fill-rule="evenodd"
+                                d="M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z"
+                                clip-rule="evenodd" />
+                        </svg>
+                        <span class="sr-only">Facebook page</span>
+                    </a>
+                    <a href="#" class="text-gray-500 hover:text-gray-900 ms-5">
+                        <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                            viewBox="0 0 21 16">
+                            <path
+                                d="M16.942 1.556a16.3 16.3 0 0 0-4.126-1.3 12.04 12.04 0 0 0-.529 1.1 15.175 15.175 0 0 0-4.573 0 11.585 11.585 0 0 0-.535-1.1 16.274 16.274 0 0 0-4.129 1.3A17.392 17.392 0 0 0 .182 13.218a15.785 15.785 0 0 0 4.963 2.521c.41-.564.773-1.16 1.084-1.785a10.63 10.63 0 0 1-1.706-.83c.143-.106.283-.217.418-.33a11.664 11.664 0 0 0 10.118 0c.137.113.277.224.418.33-.544.328-1.116.606-1.71.832a12.52 12.52 0 0 0 1.084 1.785 16.46 16.46 0 0 0 5.064-2.595 17.286 17.286 0 0 0-2.973-11.59ZM6.678 10.813a1.941 1.941 0 0 1-1.8-2.045 1.93 1.93 0 0 1 1.8-2.047 1.919 1.919 0 0 1 1.8 2.047 1.93 1.93 0 0 1-1.8 2.045Zm6.644 0a1.94 1.94 0 0 1-1.8-2.045 1.93 1.93 0 0 1 1.8-2.047 1.918 1.918 0 0 1 1.8 2.047 1.93 1.93 0 0 1-1.8 2.045Z" />
+                        </svg>
+                        <span class="sr-only">Discord community</span>
+                    </a>
+                    <a href="#" class="text-gray-500 hover:text-gray-900 ms-5">
+                        <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                            viewBox="0 0 20 17">
+                            <path fill-rule="evenodd"
+                                d="M20 1.892a8.178 8.178 0 0 1-2.355.635 4.074 4.074 0 0 0 1.8-2.235 8.344 8.344 0 0 1-2.605.98A4.13 4.13 0 0 0 13.85 0a4.068 4.068 0 0 0-4.1 4.038 4 4 0 0 0 .105.919A11.705 11.705 0 0 1 1.4.734a4.006 4.006 0 0 0 1.268 5.392 4.165 4.165 0 0 1-1.859-.5v.05A4.057 4.057 0 0 0 4.1 9.635a4.19 4.19 0 0 1-1.856.07 4.108 4.108 0 0 0 3.831 2.807A8.36 8.36 0 0 1 0 14.184 11.732 11.732 0 0 0 6.291 16 11.502 11.502 0 0 0 17.964 4.5c0-.177 0-.35-.012-.523A8.143 8.143 0 0 0 20 1.892Z"
+                                clip-rule="evenodd" />
+                        </svg>
+                        <span class="sr-only">Twitter page</span>
+                    </a>
+                    <a href="#" class="text-gray-500 hover:text-gray-900 ms-5">
+                        <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                            viewBox="0 0 20 20">
+                            <path fill-rule="evenodd"
+                                d="M10 .333A9.911 9.911 0 0 0 6.866 19.65c.5.092.678-.215.678-.477 0-.237-.01-1.017-.014-1.845-2.757.6-3.338-1.169-3.338-1.169a2.627 2.627 0 0 0-1.1-1.451c-.9-.615.07-.6.07-.6a2.084 2.084 0 0 1 1.518 1.021 2.11 2.11 0 0 0 2.884.823c.044-.503.268-.973.63-1.325-2.2-.25-4.516-1.1-4.516-4.9A3.832 3.832 0 0 1 4.7 7.068a3.56 3.56 0 0 1 .095-2.623s.832-.266 2.726 1.016a9.409 9.409 0 0 1 4.962 0c1.89-1.282 2.717-1.016 2.717-1.016.366.83.402 1.768.1 2.623a3.827 3.827 0 0 1 1.02 2.659c0 3.807-2.319 4.644-4.525 4.889a2.366 2.366 0 0 1 .673 1.834c0 1.326-.012 2.394-.012 2.72 0 .263.18.572.681.475A9.911 9.911 0 0 0 10 .333Z"
+                                clip-rule="evenodd" />
+                        </svg>
+                        <span class="sr-only">GitHub account</span>
+                    </a>
+                    <a href="#" class="text-gray-500 hover:text-gray-900 ms-5">
+                        <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                            viewBox="0 0 20 20">
+                            <path fill-rule="evenodd"
+                                d="M10 0a10 10 0 1 0 10 10A10.009 10.009 0 0 0 10 0Zm6.613 4.614a8.523 8.523 0 0 1 1.93 5.32 20.094 20.094 0 0 0-5.949-.274c-.059-.149-.122-.292-.184-.441a23.879 23.879 0 0 0-.566-1.239 11.41 11.41 0 0 0 4.769-3.366ZM8 1.707a8.821 8.821 0 0 1 2-.238 8.5 8.5 0 0 1 5.664 2.152 9.608 9.608 0 0 1-4.476 3.087A45.758 45.758 0 0 0 8 1.707ZM1.642 8.262a8.57 8.57 0 0 1 4.73-5.981A53.998 53.998 0 0 1 9.54 7.222a32.078 32.078 0 0 1-7.9 1.04h.002Zm2.01 7.46a8.51 8.51 0 0 1-2.2-5.707v-.262a31.64 31.64 0 0 0 8.777-1.219c.243.477.477.964.692 1.449-.114.032-.227.067-.336.1a13.569 13.569 0 0 0-6.942 5.636l.009.003ZM10 18.556a8.508 8.508 0 0 1-5.243-1.8 11.717 11.717 0 0 1 6.7-5.332.509.509 0 0 1 .055-.02 35.65 35.65 0 0 1 1.819 6.476 8.476 8.476 0 0 1-3.331.676Zm4.772-1.462A37.232 37.232 0 0 0 13.113 11a12.513 12.513 0 0 1 5.321.364 8.56 8.56 0 0 1-3.66 5.73h-.002Z"
+                                clip-rule="evenodd" />
+                        </svg>
+                        <span class="sr-only">Dribbble account</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
+<script defer>
+    const the_animation = document.querySelectorAll('.animation')
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('scroll-animation')
+            }
+            else {
+                entry.target.classList.remove('scroll-animation')
+            }
+
+        })
+    },
+        {
+            threshold: 0.5
+        });
+    //
+    for (let i = 0; i < the_animation.length; i++) {
+        const elements = the_animation[i];
+
+        observer.observe(elements);
+    }
+</script>
+<style>
+    html {
+        scroll-behavior: smooth;
+    }
+
+    .animation {
+        opacity: 0;
+        transform: translateX(-300px);
+        transition: all 0.8s ease-out;
+        transition-delay: 0.2s;
+
+    }
+
+    .scroll-animation {
+        opacity: 1;
+        transform: translateX(0);
+    }
+</style>
